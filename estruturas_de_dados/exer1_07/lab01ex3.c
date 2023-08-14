@@ -12,6 +12,7 @@ void invertendo(int *n){
         aux = aux * 10 + *n % 10;
         *n /= 10;
     }
+    printf("o numero invertido eh: %d", aux);
 
 }
 
@@ -21,7 +22,6 @@ int main()
     printf("digite um numero para ser invertido: ");
     scanf("%d", &n);
     invertendo(&n);
-    printf("o numero invertido eh: %d", n);
 
     return 0;
 }
