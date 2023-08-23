@@ -1,2 +1,28 @@
 quando trabalhando com ponteiros vc precisa usar  seta para fazer operações exemplo A é um ponteiro para fazer operções vc faz
 A -> operação
+
+---------------------------------------
+
+Oque é a estrutura de dados ?
+é uma forma de eu armazenas os dados na memoria do computador de forma organizada e eficiente
+para isso vc precisa saber o tamanho do dado que vc vai armazenar e o tipo de dado que vc vai armazenar
+
+memoria não segeuncian vc vai alocandos a memoria conferme vc vai precisando:
+exemplo:
+listas > uma estruturas de dados que é composta por nós, elementos que apontam para o proximo elemento da lista o ultimo aponta para o nulo 
+para compor um lista encadea basta salva seu primeiro elemento 
+Pilhas > é uma estrutura de dados que vc só pode inserir e remover elementos no topo da pilha o ultimo a entra é o primeiro a sair 
+Fila > é uma estrutura de dados que vc só pode inserir no final e remover no inicio o primeiro a entra é o primeiro a sair (first in first out)
+Arvores > é uma estrutura de dados em que cada elemento tem outro elememto associado 
+Grafos > é uma estrutura de dados que vc tem um conjunto de vertices e um conjunto de arestas que ligam os vertices serve para ver os melhores caminhos 
+
+---------------------------------------
+TADs (tipo abstrato de dados) > um conjunto de dados que podem ser executados sobre esses dados 
+Emcapsulam a representação dos dados e as operações que podem ser executadas sobre esses dados 
+Em C a implementação é feita por meio de bibliotecas e funções
+
+---------------------------------------
+Lista encadeada > vc quarda o endereço do primeiro elemento e o mesmo quarda o endereço do 
+proximo vc sabe que acabou a lista pois o ultimo não aponta para nada 
+o ponto mais importate é o inicio da lista se vc perde ele vc perde a lista 
+
