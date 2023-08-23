@@ -1,0 +1,2 @@
+quando trabalhando com ponteiros vc precisa usar  seta para fazer operações exemplo A é um ponteiro para fazer operções vc faz
+A -> operação
