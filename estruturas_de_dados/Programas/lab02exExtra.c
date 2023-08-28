@@ -104,13 +104,25 @@ int main()
 {
     int nalunos, matricula, mvelho ;
     float mpeso;
+    char reposta;
     alu *alunos;
-    printf("digite o numero de alunos:");
-    scanf("%d",&nalunos);
 
-    alunos = (alu *)malloc(nalunos*sizeof(alu));
+    printf("deseja cadastra um alunos? (s/n):");
+    scanf("%c",&reposta);
 
-    ler_dados(nalunos, alunos);
+    if (reposta == 's')
+    {
+        printf("digite o numero de alunos:");
+        scanf("%d",&nalunos);
+
+        alunos = (alu *)malloc(nalunos*sizeof(alu));
+
+        ler_dados(nalunos, alunos);
+    }
+
+    }
+
+
 
     matricula = verificapeso(nalunos, alunos);
 
