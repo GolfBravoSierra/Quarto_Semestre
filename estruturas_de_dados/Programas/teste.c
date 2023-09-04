@@ -1,0 +1,1 @@
+void push (Pilha* p, float v){   p->prim = ins_ini(p->prim,v);}
