@@ -107,20 +107,13 @@ int main()
     char reposta;
     alu *alunos;
 
-    printf("deseja cadastra um alunos? (s/n):");
-    scanf("%c",&reposta);
-
-    if (reposta == 's')
-    {
         printf("digite o numero de alunos:");
         scanf("%d",&nalunos);
 
         alunos = (alu *)malloc(nalunos*sizeof(alu));
 
         ler_dados(nalunos, alunos);
-    }
 
-    }
 
 
 
@@ -135,7 +128,7 @@ int main()
 
     infor(nalunos, alunos);
 
-    printf("\n a matricula do aluno mais pesado he: %d", matricula);
+    printf("\n a matricula do aluno mais pesado he: %c", matricula);
     printf("\n a matricula do aluno mais velho he: %d", alunos[mvelho].matricula);
     printf("\n a idade do aluno mais velho he: %d", alunos[mvelho].idade);
     printf("\n a altura do aluno mais velho he: %f", alunos[mvelho].altura);
